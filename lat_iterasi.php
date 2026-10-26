@@ -1,4 +1,5 @@
 <?php
+    //WHILE LOOP
     /*
     $i = 1; // Initialize counter
     while ($i <= 10) { // Check condition
@@ -7,6 +8,8 @@
     }
     */
 
+
+    //FOR LOOP
     /*
     //(inisiasi, kondisi, eksekusi)
     for ($x = 0; $x <= 10; $x++) {
@@ -14,6 +17,8 @@
     }
     */
 
+
+    //FOREACH LOOP
     //foreach biasa digunakan untuk array
     $colors = array("red", "green", "blue", "yellow");
 
@@ -21,8 +26,10 @@
     foreach ($colors as $value) {
         echo "$value <br>";
         }
-    
+        
+    echo "-------<br>";
+        
     //mengakses array menggunakan indeks
-    for($i=0; $i<=3; $i++)
-        echo $colors[$]
+    for($i=0; $i<=2; $i++)
+        echo $colors[$i] . "<br>";
 ?>
